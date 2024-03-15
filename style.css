@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b2f6dc;
+    margin: 0;
+    padding: 0;
+}
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+#taskManager {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f1ffe4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c6c6c6;
+    padding: 10px 0;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+h2,h3{
+    text-align : center;
+}
